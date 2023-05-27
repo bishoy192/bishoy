@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+header{
+    background-color: #2c2c2c;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 180px;
+}
+.logo{
+    text-decoration: none;
+    color:rgb(44, 139, 233)    ;
+    text-transform: capitalize;
+    font-weight:700;
+    font-size: 1.8em;
+}
+
+
+.navigations a{
+    color:rgb(44, 139, 233)    ;
+   text-decoration: none;
+   padding-left: 30px;
+   font-weight: 500;
+   font-size: 1.1em;
+
+
+}
+
+.navigations a:hover{
+    font-size: 1.8em;
+    color:rgb(87, 160, 234)    ;
+}
+
+
+section{
+    padding: 100px 200px;
+}
+  .main{
+   width: 100%;
+    min-height:  100vh; 
+    display: flex;
+    align-items: center;
+    background:url(images/a.jpg) no-repeat;
+    background-size:cover ;
+    background-position:center ;
+    background-attachment: fixed;
+
+
+  }
+   
+
+  .main h2{
+    color: white;
+    font-size: 1.9em;
+  }
+  
+  .contact{
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    background: url(images/wallpaperflare.com_wallpaper\ \(3\).jpg);
+    background-size:cover ;
+    background-position:center ;
+  }
